@@ -7,6 +7,7 @@ object Seed {
     val config: SeedConfig = SeedConfig()
     var state: SeedState = SeedState.CREATED
         private set
+    val state: SeedState = SeedState.CREATED
 
     fun start() {
         Bootstrap.run()
